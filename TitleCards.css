@@ -1,0 +1,29 @@
+.card img{
+    width: 250px;
+    transition: 0.2s ease-in;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card{
+     text-align: center;
+     font-size: 12px;
+}
+.card-list{
+    display: flex;
+    gap:20px;
+    position: relative;
+    overflow-x: scroll;
+}
+.card-list::-webkit-scrollbar{
+    display:none;
+}
+.titlecards{
+    padding: 40px 0px 0px 20px;
+}
+.titlecards h1{
+    margin-bottom: 20px;
+}
+.card img:hover{
+    scale: 1.2;
+
+}

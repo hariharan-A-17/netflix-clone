@@ -1,0 +1,23 @@
+.detailimg{
+
+  width: 100% !important;
+  
+}
+
+.credits{
+    display: flex;
+    gap:10px;
+    row-gap: 10px;
+    width:auto;
+    overflow-x:scroll;
+}
+.imageback{
+    height: 85vh;
+    overflow: hidden;
+}
+.moviedetail{
+    position: absolute;
+    top:65%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
